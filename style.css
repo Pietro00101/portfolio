@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+
+* {
+    list-style-type: none;
+}*
+
+/* CSS REFERENTE AO HEADER DO SITE*/
+header {
+    background-color: rgb(51, 1, 1);
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+body {
+    background-color: rgb(51, 1, 1);
+}
+
+.logo {
+    height: 50px;
+    width: 15%;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Audiowide", sans-serif;
+    border: solid 1px gray;
+}
+
+
+header nav {
+
+    height: 50px;
+    width: 60%;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px gray;
+}
+
+header nav ul {
+   border: solid 1px gray;
+    display: flex;
+    gap: 70px;
+    padding: 20px
+}
+
+/* CSS: Section apresentação */
+
+section {
+    /* background-color: rgb(10, 7, 9); */
+    margin-top: 10px;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.apresentacao {
+    background-color: rgb(17, 11, 11);
+    height: 360px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    background-color: rgb(24, 14, 14);
+
+    
+}
+
+.box-texto {
+    
+    height:100px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: solid 1px gray;
+    margin-left: 5%;
+}
+
+
+.box-texto h3 {
+   
+    margin: 0;
+    width: 80%;
+    font-size: 35px;
+    font-weight: bold;
+    border: solid 1px gray;
+    color: rgb(8, 105, 4);
+    
+}
+
+.sobremim {
+    height:100px;
+    width: 55%;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: solid 1px rgb(255, 255, 255);
+    margin-left: 5%;
+    color: rgb(8, 105, 4);
+    
+}
+
+.box-redes {
+   border: solid 1px gray;
+    height: 100px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-left: 5%;
+}
+
+.box-redes button {
+   background-color: #ffffff00;
+    color: rgb(8, 105, 4);
+    justify-content: space-around;
+    padding: 20px 30px;
+    border-radius: 20px;
+    border: solid 1px gray;
+    position: relative;
+    left: 10px;
+    
+}
+
+    
+.imagem-apresentacao {
+    
+    margin: 10px;
+    height: 360px;
+    width: 40%;
+    display: flex;
+    border: solid 1px gray;
+    
+}
+
+footer {
+    background-color: rgb(255, 0, 0);
+    margin-top: 10px;
+    height: 30px;
+    background-color: rgb(54, 42, 165);
+}
