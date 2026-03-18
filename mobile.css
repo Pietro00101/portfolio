@@ -1,0 +1,35 @@
+@media (max-width: 1024px) {
+   
+}
+
+.logo {
+    height: 50px;
+    width: 15%;
+    font-size: 20px;
+    color: rgb(8, 105, 4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Audiowide", sans-serif;
+    border: solid 1px gray;
+}
+
+
+header nav {
+
+    height: 50px;
+    width: 60%;
+    color: rgb(8, 105, 4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px gray;
+}
+
+header nav ul {
+    border: solid 1px gray;
+    justify-content: end;
+    gap: 30px;
+    padding: 2px;
+    font-size: 20px;
+}

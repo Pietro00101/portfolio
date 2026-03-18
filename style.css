@@ -21,7 +21,8 @@ body {
 .logo {
     height: 50px;
     width: 15%;
-    color: aliceblue;
+    font-size: 25px;
+    color: rgb(8, 105, 4);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,7 +35,7 @@ header nav {
 
     height: 50px;
     width: 60%;
-    color: aliceblue;
+    color: rgb(8, 105, 4);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,10 +43,11 @@ header nav {
 }
 
 header nav ul {
-   border: solid 1px gray;
+    border: solid 1px gray;
     display: flex;
-    gap: 70px;
-    padding: 20px
+    gap: 150px;
+    padding: 2px;
+    font-size: 20px;
 }
 
 /* CSS: Section apresentação */
@@ -62,7 +64,7 @@ section {
 
 .apresentacao {
     background-color: rgb(17, 11, 11);
-    height: 360px;
+    height: 500px;
     width: 40%;
     display: flex;
     flex-direction: column;
@@ -75,8 +77,8 @@ section {
 
 .box-texto {
     
-    height:100px;
-    width: 60%;
+    height:200px;
+    width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -89,7 +91,7 @@ section {
    
     margin: 0;
     width: 80%;
-    font-size: 35px;
+    font-size: 45px;
     font-weight: bold;
     border: solid 1px gray;
     color: rgb(8, 105, 4);
@@ -97,13 +99,13 @@ section {
 }
 
 .sobremim {
-    height:100px;
+    height:150px;
     width: 55%;
-    font-size: 20px;
+    font-size: 25px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    border: solid 1px rgb(255, 255, 255);
+    border: solid 1px rgba(255, 255, 255, 0.418);
     margin-left: 5%;
     color: rgb(8, 105, 4);
     
@@ -123,11 +125,12 @@ section {
    background-color: #ffffff00;
     color: rgb(8, 105, 4);
     justify-content: space-around;
-    padding: 20px 30px;
+    padding: 20px 20px;
     border-radius: 20px;
     border: solid 1px gray;
     position: relative;
     left: 10px;
+    cursor: pointer;
     
 }
 
@@ -142,9 +145,3 @@ section {
     
 }
 
-footer {
-    background-color: rgb(255, 0, 0);
-    margin-top: 10px;
-    height: 30px;
-    background-color: rgb(54, 42, 165);
-}
