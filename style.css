@@ -32,7 +32,6 @@ header {
     justify-content: center;
     align-items: center;
     font-family: "Audiowide", sans-serif;
-    border: 1px solid #2E2E4D;
 }
 
 /* NAV */
@@ -90,7 +89,6 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    border: 1px solid #2E2E4D;
     margin-left: 5%;
     padding: 10px;
 }
@@ -109,7 +107,6 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    border: 1px solid #2E2E4D;
     margin-left: 5%;
     color: #9A9AB0;
     padding: 10px;
