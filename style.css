@@ -12,6 +12,10 @@ body {
     font-family: Arial, sans-serif;
 }
 
+.menu-hamburguer {
+    display: none;
+}
+
 /* HEADER */
 header {
     background-color: #0F0F1B;
